@@ -1,0 +1,22 @@
+Overlay:
+  ☐ Research into ways of supporting an in game overlay
+    Custom directx hook? Inject with frida?
+    Just have it render our internal server?
+    Plugins can support widgets?
+Plugin Support:
+  ☐ Research into best ways of supporting external plugins
+    Do we only want to support renderer additions?
+    Do we need npm support?
+Injector:
+  ☐ Player status fetching
+  ☐ Current map location fetching
+  ☐ Inventory management
+  ☐ Allow renderer to inject / reinject into game process
+GraphQL Service:
+  ☐ Implement graphql type exports for use in renderer
+  Handlers:
+    Configuration:
+      ☐ Allow saving and fetching game process name
+    Injector:
+      ☐ Support getting status of injectoor
+      ☐ Support reinjection into game process

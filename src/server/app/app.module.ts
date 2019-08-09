@@ -12,4 +12,4 @@ import isDev from 'src/util/isDev';
   ],
   controllers: [AppController],
 })
-export class AppModule {}
+export class AppModule { }

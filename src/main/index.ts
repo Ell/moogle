@@ -3,6 +3,7 @@ import 'reflect-metadata';
 import { BrowserWindow, app } from 'electron';
 
 import isDev from 'src/util/isDev';
+import { defaultTheme } from 'src/renderer/theme/themes/default';
 
 const WEBPACK_PORT = 8080;
 const SERVER_PORT = 3000;
@@ -15,9 +16,15 @@ function createMainWindow() {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 720,
+    maxWidth: 1920,
+    maxHeight: 1080,
     webPreferences: {
       nodeIntegration: true,
     },
+    backgroundColor: defaultTheme.colors.primary,
+    minWidth: 800,
+    minHeight: 600,
+    darkTheme: true,
   });
 
   mainWindow.loadURL(contentURL);

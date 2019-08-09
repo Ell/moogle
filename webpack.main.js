@@ -13,12 +13,13 @@ const shared = merge(baseConfig, {
   },
 });
 
-const development = merge(shared, {});
+const development = merge(shared, {
+});
 
 const production = merge(shared, {
   mode: 'production',
 });
 
-const config = env === 'dev' ? development : production;
+const config = env === 'development' ? development : production;
 
 module.exports = config;
