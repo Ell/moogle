@@ -21,7 +21,7 @@
     "@nestjs/websockets": "^6.5.3",
     "apollo-cache-inmemory": "^1.6.2",
     "apollo-client": "^2.6.3",
-    "apollo-server-express": "^2.8.1",
+    "apollo-server-express": "^2.14.2",
     "electron": "^6.0.0",
     "emotion": "^10.0.14",
     "emotion-theming": "^10.0.14",
