@@ -35,7 +35,7 @@
     "react-dom": "^16.8.6",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2",
-    "type-graphql": "^0.17.4",
+    "type-graphql": "^0.17.6",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
