@@ -22,7 +22,7 @@
     "apollo-cache-inmemory": "^1.6.2",
     "apollo-client": "^2.6.3",
     "apollo-server-express": "^2.8.1",
-    "electron": "^6.0.0",
+    "electron": "^9.4.0",
     "emotion": "^10.0.14",
     "emotion-theming": "^10.0.14",
     "frida": "^12.6.11",
